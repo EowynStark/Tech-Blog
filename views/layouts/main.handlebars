@@ -27,5 +27,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/contact">Contact</a>
                 </li>   
-                
+    <footer>
+        
+    </footer>
+    {{!-- renders logout script for logged in users only  --}}
+    {{#if logged_in}}
+    <script src="/js/logout.js"></script>
+    {{/if}}
 </body>
